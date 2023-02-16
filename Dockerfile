@@ -2,7 +2,7 @@
 #Must Subscribe On YouTube @LazyDeveloperr
 # Python Based Docker
 # Python Based Docker
-FROM python:latest
+FROM nikolaik/python-nodejs:python3.9-nodejs16
 
 # Installing Packages
 RUN apt update && apt upgrade -y
