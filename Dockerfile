@@ -7,6 +7,7 @@ FROM python:latest
 # Installing Packages
 RUN apt update && apt upgrade -y
 RUN apt install git curl python3-pip ffmpeg -y
+RUN apt install ffmpeg -y
 
 # Updating Pip Packages
 RUN pip3 install -U pip
